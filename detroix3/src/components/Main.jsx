@@ -1,4 +1,4 @@
-import  ManImage from "../../assets/detroixtemplate.png"
+import ManImage from "./detroixtemplate.png"
 
 
 function Main(){

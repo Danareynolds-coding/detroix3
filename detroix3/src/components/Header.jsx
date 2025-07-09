@@ -1,4 +1,4 @@
-import Detroix from '../../assets/detroix.png';
+import Detroix from './assets/detroix.png';
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function SmallNav(){
   return(
     <nav className="row smallnav">
           <div className="col-2 websitebox">
-            <a className="website" href="https://www.Demolink.org">www.DEMOLINK.ORG</a>
+            {/* <a className="website" href="https://www.Demolink.org">www.DEMOLINK.ORG</a> */}
           </div>
           <div className="col-3 guideBox">
               <div className="guide"><a className="navitem" href="#">SUPPORT|</a></div>
@@ -28,7 +28,7 @@ function LargeNav(){
   return(
       <nav className="lrgnav row">
           <div className="col-3 detroix">
-            <img src={Detroix} className="img-fluid" alt="the word detroix"/>
+          <img src={Detroix} className="img-fluid" alt="the word detroix"/>  
           </div>
           <ul className="col-6 libox">
             <li className="li"><a href="#">Home</a></li>
